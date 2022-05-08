@@ -33,16 +33,14 @@ int main()
     p2.x = 5;
     p2.y = 5;
 
-
-
     Square square(p1,p2);
     std::cout << "area square = " << square.CalculateArea() << std::endl;
 
     Circle circle(p1, 1);
-    std::cout << "area ciercle  = " << circle.CalculateArea() << std::endl;
+    std::cout << "area circle  = " << circle.CalculateArea() << std::endl;
 
     Circle circle2(p1,3);
-    std::cout << "area ciercle2  = " << circle2.CalculateArea() << std::endl;
+    std::cout << "area circle2  = " << circle2.CalculateArea() << std::endl;
 
     std::vector<Body2D*> vec{3};
     vec[0] = &tri;
